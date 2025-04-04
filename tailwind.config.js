@@ -11,9 +11,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#1C1C1C",
-        secondary: "#009FE3",
-        tertiary: "#009FE1",
+        primary: "#1D1D1B",
+        secondary: "#8E0610",
+        tertiary: "#e1e1dd",
         gray: "#EDEEEF",
       },
       fontFamily: {

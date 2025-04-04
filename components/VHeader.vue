@@ -1,6 +1,6 @@
 <template>
   <div
-    class="hidden lg:flex w-full justify-center bg-primary text-white pt-9 pb-8"
+    class="hidden lg:flex w-full justify-center text-primary bg-[#e4e5e0] pt-9 pb-8"
   >
     <div
       class="max-w-[1400px] flex flex-row justify-between w-full items-center lg:px-32 px-4"
@@ -27,13 +27,13 @@
           active-class="text-secondary"
           to="/empresa"
           class="hover:text-[#dae7ff] transition-all duration-300 active:scale-95 hover:scale-105"
-          >EMPRESA</NuxtLink
+          >SERVICIOS</NuxtLink
         >
         <NuxtLink
           active-class="text-secondary"
           to="/novedades"
           class="hover:text-[#dae7ff] transition-all duration-300 active:scale-95 hover:scale-105"
-          >NOVEDADES</NuxtLink
+          >NOSOTROS</NuxtLink
         >
         <NuxtLink
           active-class="text-secondary"
