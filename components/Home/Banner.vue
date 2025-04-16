@@ -10,17 +10,19 @@
       class="max-w-[1440px] place-items-start absolute px-9 w-full pt-24 justify-start lg:justify-center h-full flex flex-col text-primaryCD text-start gap-10"
     >
       <NuxtImg
+        data-aos="fade-up"
         src="img/logo.png"
         class="!h-fit w-2/6 drop-shadow-xl"
-        data-aos="fade-right"
       ></NuxtImg>
       <div
         class="flex flex-col w-2/6 text-4xl text-center !font-raleway font-black"
+        data-aos="fade-up"
       >
         <p>SOMOS PROVEEDORES DE INDUSTRIAS</p>
       </div>
       <div
         class="flex flex-col w-2/6 text-4xl text-center !font-raleway font-black"
+        data-aos="fade-up"
       >
         <VButton
           titulo="Ver Productos"
