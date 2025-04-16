@@ -15,6 +15,7 @@ module.exports = {
         primaryCD: "#D8261C",
         secondary: "#8E0610",
         tertiary: "#e1e1dd",
+        persogreen: "#409474",
         gray: "#EDEEEF",
         persoblack: "#1A1A18",
       },

@@ -14,15 +14,15 @@
         class="!h-fit w-1/4 drop-shadow-xl"
         data-aos="fade-right"
       ></NuxtImg>
-      <div class="flex flex-col text-4xl !font-raleway font-black">
+      <div class="flex flex-col text-4xl font-oxanium font-black">
         <p>TE OFRECEMOS EXPERIENCIA</p>
-        <p class="text-orange">Y CONOCIMIENTO TÉCNICO</p>
+        <p>Y CONOCIMIENTO TÉCNICO</p>
       </div>
 
       <VButton
-        titulo="Conocenos"
-        class="!text-xl !bg-white w-3/4"
-        @click="router.push('/Empresa')"
+        titulo="Nuestros Servicios"
+        class="!text-xl !bg-primary text-white w-3/4"
+        @click="router.push('/Servicios')"
       ></VButton>
     </div>
   </div>

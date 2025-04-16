@@ -8,3 +8,9 @@
   </div>
 </template>
 <script setup></script>
+
+<style>
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+</style>

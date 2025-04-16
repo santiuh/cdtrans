@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col w-full">
-    <div
+  <div class="flex flex-col w-full h-screen">
+    <!-- <div
       class="w-full bg-[url('/img/contacto.png')] bg-cover bg-no-repeat justify-center flex"
     >
       <div
@@ -131,7 +131,7 @@
           ></VButton>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script setup></script>

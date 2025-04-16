@@ -51,9 +51,17 @@
           active-class="text-secondary"
           @click="menu = false"
           class="hover:cursor-pointer transition-all duration-300"
+          to="/productos"
+        >
+          SERVICIOS
+        </NuxtLink>
+        <NuxtLink
+          active-class="text-secondary"
+          @click="menu = false"
+          class="hover:cursor-pointer transition-all duration-300"
           to="/empresa"
         >
-          EMPRESA
+          NOSOTROS
         </NuxtLink>
         <NuxtLink
           active-class="text-secondary"
@@ -71,14 +79,14 @@
         >
           CONTACTO
         </NuxtLink>
-        <NuxtLink
+        <!-- <NuxtLink
           active-class="text-secondary"
           @click="menu = false"
           class="hover:cursor-pointer transition-all duration-300"
           to="/Concesionarios"
         >
           CONCESIONARIOS
-        </NuxtLink>
+        </NuxtLink> -->
       </div>
     </nav>
   </div>

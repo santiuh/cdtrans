@@ -26,14 +26,20 @@
         ></NuxtImg>
       </div>
 
-      <div class="font-medium gap-10 flex flex-row text-persoblack ">
+      <div class="font-medium gap-10 flex flex-row text-persoblack">
         <button
           class="hover:text-orange transition-all duration-300"
           @click="goTo('/Productos')"
         >
           PRODUCTOS
         </button>
-        <div class="group relative flex flex-col justify-center">
+        <button
+          class="hover:text-orange transition-all duration-300"
+          @click="goTo('/Servicios')"
+        >
+          SERVICIOS
+        </button>
+        <!-- <div class="group relative flex flex-col justify-center">
           <button class="hover:text-orange transition-all duration-300">
             SERVICIOS
           </button>
@@ -52,12 +58,12 @@
               {{ service.name }}
             </button>
           </div>
-        </div>
+        </div> -->
         <button
           class="hover:text-orange transition-all duration-300"
           @click="goTo('/Empresa')"
         >
-          EMPRESA
+          NOSOTROS
         </button>
         <button
           class="hover:text-orange transition-all duration-300"

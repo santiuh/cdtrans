@@ -11,19 +11,23 @@
     >
       <NuxtImg
         src="img/logo.png"
-        class="!h-fit w-1/4 drop-shadow-xl"
+        class="!h-fit w-2/6 drop-shadow-xl"
         data-aos="fade-right"
       ></NuxtImg>
-      <div class="flex flex-col text-4xl !font-raleway font-black">
-        <p>TE OFRECEMOS EXPERIENCIA</p>
-        <p class="text-orange">Y CONOCIMIENTO TÉCNICO</p>
+      <div
+        class="flex flex-col w-2/6 text-4xl text-center !font-raleway font-black"
+      >
+        <p>SOMOS PROVEEDORES DE INDUSTRIAS</p>
       </div>
-
-      <VButton
-        titulo="Conocenos"
-        class="!text-xl !bg-white w-3/4"
-        @click="router.push('/Empresa')"
-      ></VButton>
+      <div
+        class="flex flex-col w-2/6 text-4xl text-center !font-raleway font-black"
+      >
+        <VButton
+          titulo="Ver Productos"
+          class="!text-xl !bg-primaryCD text-white self-center"
+          @click="router.push('/Empresa')"
+        ></VButton>
+      </div>
     </div>
   </div>
 </template>

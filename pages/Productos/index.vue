@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col w-full">
-    <div
+  <div class="flex flex-col w-full h-screen">
+    <!-- <div
       class="w-full bg-[url('/img/productosbg.png')] bg-cover bg-no-repeat justify-center flex"
     >
       <div
@@ -36,7 +36,7 @@
           @click="router.push('/productos/' + (i + 1))"
         ></ProductosProducto>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script setup>
