@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-const phoneNumber = "5493417484539"; // Reemplaza con tu número de WhatsApp
+const phoneNumber = ""; // Reemplaza con tu número de WhatsApp
 const message = "Hola, me gustaría más información"; // Mensaje opcional
 const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
   message
