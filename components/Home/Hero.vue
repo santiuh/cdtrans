@@ -1,14 +1,42 @@
 <template>
-  <div
-    class="flex relative justify-center w-full h-[85vh] bg-[url('/img/background.jpg')] bg-no-repeat bg-cover bg-center"
-  >
-    <div
-      class="lg:max-w-[1440px] flex flex-col lg:pt-20 h-full absolute top-[20%] lg:static w-full lg:justify-start z-10 lg:px-32 px-4"
-    >
-      <div
-        class="flex flex-col flex-wrap italic text-5xl lg:text-7xl font-bold text-white"
-      ></div>
+  <div ref="glideRef2" class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        <!-- <li class="glide__slide">
+          <HomeHero1 class="h-[90vh] lg:h-screen"></HomeHero1>
+        </li> -->
+        <li class="glide__slide">
+          <HomeBanner class="h-[90vh] lg:h-[95vh]"></HomeBanner>
+        </li>
+
+        <li class="glide__slide">
+          <HomeHero3 class="h-[90vh] lg:h-[95vh]"></HomeHero3>
+        </li>
+      </ul>
+    </div>
+    <div class="glide__bullets z-40" data-glide-el="controls[nav]">
+      <button class="glide__bullet" data-glide-dir="=0"></button>
+      <button class="glide__bullet" data-glide-dir="=1"></button>
+      <button class="glide__bullet" data-glide-dir="=2"></button>
     </div>
   </div>
 </template>
-<script setup></script>
+
+<script setup>
+import Glide from "@glidejs/glide";
+import "@glidejs/glide/dist/css/glide.core.min.css";
+import "@glidejs/glide/dist/css/glide.theme.min.css";
+
+const glideRef2 = ref(null);
+
+onMounted(() => {
+  const glideInstance = new Glide(glideRef2.value, {
+    type: "carousel",
+    perView: 1,
+    autoplay: 0,
+    hoverpause: false,
+    gap: 0,
+  });
+  glideInstance.mount();
+});
+</script>

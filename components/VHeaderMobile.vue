@@ -13,7 +13,7 @@
         <NuxtLink class="items-center flex" to="/">
           <NuxtImg
             v-show="!menu"
-            src="svg/logo.svg"
+            src="img/logo.png"
             class="self-center transition-all duration-300 h-10"
           ></NuxtImg>
         </NuxtLink>

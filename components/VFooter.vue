@@ -7,7 +7,7 @@
     >
       <NuxtImg
         class="w-3/4 lg:w-auto lg:!h-14 self-center"
-        src="/svg/logo.svg"
+        src="/img/logo.png"
       ></NuxtImg>
       <div class="hidden lg:flex h-full border-l"></div>
       <div class="flex flex-col py-4">

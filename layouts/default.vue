@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary overflow-hidden" style="font-family: Arial">
+  <div class="bg-white overflow-hidden" style="font-family: Arial">
     <VHeader></VHeader>
     <VHeaderMobile></VHeaderMobile>
     <slot />

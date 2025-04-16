@@ -19,9 +19,9 @@
         :class="!isHome ? '!h-12' : isScrolled && isHome ? '!h-10' : '!h-12'"
         :src="
           !isHome
-            ? 'svg/logo.svg'
+            ? 'img/logo.png'
             : isScrolled && isHome
-            ? 'svg/logo.svg'
+            ? 'img/logo.png'
             : 'svg/logocolor.svg'
         "
       ></NuxtImg>
