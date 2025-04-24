@@ -1,31 +1,31 @@
 <template>
   <div
-    class="flex animate-gradient bg-gradient-to-l from-white to-tertiary place-content-center pt-28 pb-20 z-40"
+    class="flex animate-gradient bg-primary place-content-center pt-28 pb-20 z-40 text-white"
   >
     <div
       class="flex-col lg:flex-row gap-6 lg:gap-4 items-center text-center lg:text-start flex text-xl lg:justify-around w-full lg:max-w-[1440px] lg:px-32 px-4"
     >
       <NuxtImg
-        class="w-3/4 lg:w-auto lg:!h-14 self-center"
-        src="/img/logo.png"
+        class="w-3/4 lg:w-auto lg:!h-[46px] self-center"
+        src="/img/logoblanco.png"
       ></NuxtImg>
       <NuxtImg
-        class="w-3/4 lg:w-auto lg:!h-14 self-center"
-        src="/img/logo2.png"
+        class="w-3/4 lg:w-auto lg:!h-[40px] self-center"
+        src="/img/logo2blanco.png"
       ></NuxtImg>
-      <div class="hidden lg:flex h-full border-l border-persoblack"></div>
-      <div class="flex flex-col py-4 text-persoblack">
+      <div class="hidden lg:flex h-full border-l border-white"></div>
+      <div class="flex flex-col py-4">
         <span>Colón 150 </span>
         <span>Susana, Santa Fe, Argentina </span>
         <span>C2301, Castellanos </span>
       </div>
-      <div class="hidden lg:flex h-full border-l border-persoblack"></div>
-      <div class="flex flex-row gap-4 items-center h-full text-persoblack">
+      <div class="hidden lg:flex h-full border-l border-white"></div>
+      <div class="flex flex-row gap-4 items-center h-full">
         <svgo-tel class="!h-9 !w-auto"></svgo-tel>
         <span>03492 27-2390</span>
       </div>
-      <div class="hidden lg:flex h-full border-l border-persoblack"></div>
-      <div class="flex flex-row gap-4 text-persoblack">
+      <div class="hidden lg:flex h-full border-l border-white"></div>
+      <div class="flex flex-row gap-4">
         <NuxtLink
           to="https://api.whatsapp.com/send?phone="
           target="_blank"

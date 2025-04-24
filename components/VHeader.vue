@@ -1,6 +1,6 @@
 <template>
   <div
-    class="hidden lg:flex flex-col backdrop-blur-md shadow-md bg-white"
+    class="hidden lg:flex flex-col backdrop-blur-md shadow-md bg-primary"
     :class="{
       '   ': isScrolled && isHome,
       'fixed z-50 w-full ': isHome,
@@ -13,20 +13,20 @@
     <div
       class="flex flex-row justify-between px-10 self-center w-full max-w-[1440px]"
     >
-      <div class="flex flex-row gap-4 items-center my-4">
+      <div class="flex flex-row gap-4 items-baseline my-4">
         <NuxtImg
           @click="router.push('/')"
-          class="transition-all duration-300 !h-16 !w-auto hover:cursor-pointer hover:scale-105 hover:brightness-90 drop-shadow-md"
-          src="img/logo.png"
+          class="transition-all duration-300 !h-[46px] !w-auto hover:cursor-pointer hover:scale-105 hover:brightness-90"
+          src="img/logoblanco.png"
         ></NuxtImg>
         <NuxtImg
           @click="router.push('/')"
-          class="transition-all duration-300 !h-16 !w-auto hover:cursor-pointer hover:scale-105 hover:brightness-90"
-          src="img/logo2.png"
+          class="transition-all duration-300 !h-[40px] !w-auto hover:cursor-pointer hover:scale-105 hover:brightness-90"
+          src="img/logo2blanco.png"
         ></NuxtImg>
       </div>
 
-      <div class="font-medium gap-10 flex flex-row text-persoblack">
+      <div class="font-medium gap-10 flex flex-row text-white font-sans">
         <button
           class="hover:text-orange transition-all duration-300"
           @click="goTo('/Productos')"

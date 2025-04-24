@@ -21,7 +21,7 @@
 
       <VButton
         titulo="Nuestros Servicios"
-        class="!text-xl !bg-primary text-white w-3/4"
+        class="!text-xl !bg-persogreen text-white w-3/4"
         @click="router.push('/Servicios')"
       ></VButton>
     </div>

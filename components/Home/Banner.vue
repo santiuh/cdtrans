@@ -26,8 +26,8 @@
       >
         <VButton
           titulo="Ver Productos"
-          class="!text-xl !bg-primaryCD text-white self-center"
-          @click="router.push('/Empresa')"
+          class="!text-xl !bg-persogreen text-white self-center"
+          @click="router.push('/Productos')"
         ></VButton>
       </div>
     </div>

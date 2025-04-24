@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout class="text-white" style="font-family: Helvetica">
+  <NuxtLayout class="" style="font-family: Helvetica">
     <NuxtPage class="" />
   </NuxtLayout>
 </template>
@@ -14,3 +14,19 @@
   filter: blur(1rem);
 }
 </style>
+<script setup>
+definePageMeta({
+  title: "CD Transmisiones y GDr",
+  meta: [
+    {
+      name: "description",
+      content:
+        "CD Transmisiones y GDr - Soluciones en transmisiones y servicios relacionados.",
+    },
+    {
+      name: "keywords",
+      content: "CD Transmisiones, GDr, transmisiones, servicios, soluciones",
+    },
+  ],
+});
+</script>
