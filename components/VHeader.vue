@@ -1,6 +1,6 @@
 <template>
   <div
-    class="hidden lg:flex flex-col backdrop-blur-md shadow-md bg-primary"
+    class="hidden lg:flex flex-col backdrop-blur-md shadow-md bg-gradient-to-b from-[#ff0000cc] to-[#940c0cc7]"
     :class="{
       '   ': isScrolled && isHome,
       'fixed z-50 w-full ': isHome,

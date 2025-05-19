@@ -8,10 +8,13 @@
 .page-leave-active {
   transition: all 0.4s;
 }
-.page-enter-from,
-.page-leave-to {
+.page-enter-from {
+  transform: translateX(100%);
   opacity: 0;
-  filter: blur(1rem);
+}
+.page-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
 }
 </style>
 <script setup>
